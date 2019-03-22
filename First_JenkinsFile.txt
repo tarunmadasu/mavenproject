@@ -6,9 +6,6 @@ pipeline{
                cleanWs()
             }
         }
-
-
-        
         stage("checking out the code from Git"){
             steps{
                git 'https://github.com/saimanoj4/hrms.git'
@@ -22,6 +19,4 @@ pipeline{
         }
     }
     
-
-
 }
